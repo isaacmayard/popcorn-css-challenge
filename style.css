@@ -3,3 +3,75 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+header {
+    color:#553100;
+    background-color: #FFDBAA;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 100px;
+    padding: 40px;
+    font-size: larger;
+}
+
+h1 {
+    margin-top: -60px;
+    font-weight: bolder;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+    margin-right: 80px;
+}
+
+.button {
+    align-items: center;
+    background-color: #805215;
+    font-size:x-large;
+    font-weight: 700;
+    height:    60px;
+    width: 140px;
+    border: #805215;
+    color: white;
+    }
+
+main {
+    background-color: #D4A76A;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-right: -50px;
+    margin-left: -10px;
+}
+
+.shell {
+    width: 300px;
+    border: 1px solid black;
+    padding: 50px;
+    margin-top: 50px;
+    background-color: white;
+    border: outset;
+}
+
+.shellButton {
+    align-items: center;
+    background-color: #805215;
+    font-size:x-large;
+    font-weight: 700;
+    height:    60px;
+    width: 140px;
+    border: #805215;
+    color: white;
+    }
+    
+#mflights {
+    border: 1px;
+    border-style: outset;
+    width: 250px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    font
+}
